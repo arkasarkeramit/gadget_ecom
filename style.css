@@ -1,0 +1,163 @@
+.container {
+    padding-bottom: 20px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar img {
+    max-width: 120px;
+}
+
+.btn {
+    background-color: white;
+    border-color: white;
+    color: rgba(0, 0, 0, .5);
+    Cursor: pointer;
+    box-shadow: white;
+    padding-top: 7px;
+}
+
+.prod {
+    text-decoration: none;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+<!--carousel-->.carousel-item {
+    padding: 0px 40px;
+}
+
+.maximum {
+    max-width: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bton {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.carousel-indicators .car {
+    background-image: linear-gradient(45deg, tomato, orange);
+    border: 1px;
+    padding: 3px 2px;
+    border-radius: 1cm;
+}
+
+.next {
+    text-decoration: none;
+    color: tomato;
+    Cursor: pointer;
+}
+
+a:hover {
+    color: wheat;
+    text-decoration: none;
+}
+
+.card {
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px 10px wheat;
+    margin-top: 20px;
+}
+
+.card img {
+    max-width: 250px;
+    display: flex;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.catmain {
+    text-align: center;
+}
+
+.catmain div {
+    height: 6px;
+    border: 1px;
+    background-image: linear-gradient(45deg, tomato, orange);
+    display: flex;
+    max-width: 85px;
+    margin: auto;
+    border-radius: 2cm;
+}
+
+.catsub img {
+    max-width: 400px;
+}
+
+.catsub {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box1 {
+    height: 170px;
+    width: 170px;
+    background-color: wheat;
+}
+
+.cat {
+    background-image: url(Categories/perfume.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    box-shadow: 5px 5px 10px wheat;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cat h5 {
+    margin-top: 80%;
+    margin-left: 40%;
+}
+
+.cat2 {
+    background-image: url(Categories/shoe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 5px 10px wheat;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#she {
+    margin-top: 30px;
+}
+
+.cat2 h5 {
+    margin-top: 75%;
+    margin-left: 40%;
+}
+
+.cat3 {
+    background-image: url(Categories/bag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 5px 10px wheat;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cat3 h5 {
+    padding-top: 85%;
+    margin-left: 40%;
+}
